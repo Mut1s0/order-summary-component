@@ -81,6 +81,10 @@ body {
   margin-bottom: 15px;
 }
 
+.order-summary > p {
+  color: hsl(224, 23%, 55%);
+}
+
 .buttons {
   display: flex;
   flex-direction: column;
@@ -118,4 +122,97 @@ body {
 
 .button1:hover {
   background-color: rgb(176, 196, 222);
+}
+
+
+@media screen and ( max-width: 375px ) {
+  body {
+    background-image: url(/images/pattern-background-mobile.svg);
+  }
+
+  .container {
+    width: 35vh;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+
+  .top-img > img {
+    width: 40vh;
+  }
+
+  .annual-plan {
+    width: 35vh;
+  }
+
+  .buttons > button {
+    width: 35vh;
+    margin: 10px auto;
+  }
+
+  .ap-plan {
+    font-size: 8.5px;
+  }
+
+  .ap-plan > p {
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .order-summary {
+    width: 35vh;
+  }
+
+  .order-summary > h1 {
+    font-size: 24px;
+  }
+
+  .order-summary > p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    width: 38vh;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+
+  .top-img > img {
+    width: 38vh;
+  }
+
+  .order-summary {
+    width: 34vh;
+  }
+
+  .order-summary > h1 {
+    font-size: 26px;
+  }
+
+  .order-summary > p {
+    font-size: 14px;
+  }
+
+  .annual-plan {
+    width: 34vh;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .ap-plan {
+    font-size: 6px;
+  }
+
+  .ap-plan > p{
+    font-size: 14px;
+  }
+
+  .buttons > button {
+    width: 34vh;
+  }
+
+  .annual-plan > div > a {
+    font-size: 13px;
+  }
 }
