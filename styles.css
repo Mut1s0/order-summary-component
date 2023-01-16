@@ -124,6 +124,15 @@ body {
   background-color: rgb(176, 196, 222);
 }
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution > a {
+  color: hsl(228, 45%, 44%);
+}
+
 
 @media screen and ( max-width: 375px ) {
   body {
@@ -168,6 +177,10 @@ body {
 
   .order-summary > p {
     font-size: 14px;
+  }
+
+  .attribution {
+    text-align: center;
   }
 }
 
@@ -214,5 +227,10 @@ body {
 
   .annual-plan > div > a {
     font-size: 13px;
+  }
+
+  .attribution {
+    font-size: 12px;
+    text-align: center;
   }
 }
