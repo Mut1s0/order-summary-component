@@ -3,5 +3,10 @@ body {
   padding: 0;
   box-sizing: border-box;
   height: 100vh;
+  font-family: var(--ff);
+  background-color: var(--pale-blue);
+}
+
+main {
   border: 2px solid red;
 }
