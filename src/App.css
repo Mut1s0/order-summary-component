@@ -50,8 +50,17 @@ footer > button:nth-child(1) {
   font-weight: var(--fw-bold);
 }
 
+footer > button:nth-child(1):hover {
+  opacity: .5;
+}
+
 footer > button:nth-child(2) {
   color: var(--desaturated-blue);
+  font-weight: var(--fw-black);
+}
+
+footer > button:nth-child(2):hover {
+  color: var(--dark-blue);
   font-weight: var(--fw-black);
 }
 

@@ -42,7 +42,7 @@ function OrderSummary() {
 
                         </div>
 
-                        <p className="underline cursor-pointer text-[14px] sm:text-[20px]">Change</p>
+                        <p className="underline cursor-pointer text-[14px] sm:text-[20px] hover:opacity-70">Change</p>
 
                     </div>
 
