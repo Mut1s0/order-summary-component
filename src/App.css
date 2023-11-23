@@ -2,11 +2,66 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  height: 100vh;
+  height: 110vh;
   font-family: var(--ff);
   background-color: var(--pale-blue);
+  background-image: url(./images/pattern-background-mobile.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 main {
-  border: 2px solid red;
+  height: 110vh;
+}
+
+main > div {
+  background-color: var(--very-pale-blue);
+}
+
+.content > div:nth-child(1) > h1 {
+  color: var(--dark-blue);
+  font-weight: var(--fw-black);
+}
+
+.content > div:nth-child(1) > p {
+  color: var(--desaturated-blue);
+  font-weight: var(--fw-medium);
+}
+
+.content > div:nth-child(2) > div > div > h2 {
+  color: var(--dark-blue);
+  font-weight: var(--fw-black);
+}
+
+.content > div:nth-child(2) > div > div > p {
+  color: var(--desaturated-blue);
+  font-weight: var(--fw-medium);
+}
+
+.content > div:nth-child(2) > p {
+  color: var(--bright-blue);
+  font-weight: var(--fw-black);
+}
+
+footer > button:nth-child(1) {
+  background-color: var(--bright-blue);
+  color: var(--very-pale-blue);
+  font-weight: var(--fw-bold);
+}
+
+footer > button:nth-child(2) {
+  color: var(--desaturated-blue);
+  font-weight: var(--fw-black);
+}
+
+@media only screen and (min-width: 540px) {
+  body {
+    height: 100vh;
+    background-image: url(./images/pattern-background-desktop.svg);
+  }
+
+  main {
+    height: 100vh;
+  }
 }
